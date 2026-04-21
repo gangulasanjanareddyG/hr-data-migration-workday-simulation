@@ -1,0 +1,14 @@
+WORKDAY MIGRATION VALIDATION REPORT
+=======================================================
+✅ PASS | Row count = 1470 (found 1470)
+✅ PASS | No null values (found 0 nulls)
+✅ PASS | No duplicate worker_id (found 0 duplicates)
+✅ PASS | Attrition flag values are 0 or 1 only (found values: {0, 1})
+✅ PASS | Gender values are M or F only (found values: {'M', 'F'})
+✅ PASS | Travel frequency values valid (found values: {'FREQ', 'NONE', 'RARE'})
+✅ PASS | All ages between 18 and 65 (bad values: none)
+✅ PASS | All salaries greater than 0 (bad records: 0)
+✅ PASS | worker_status values valid (found values: {'Terminated', 'Active'})
+✅ PASS | Column count = 33 (found 33)
+=======================================================
+PASSED: 10 / FAILED: 0
